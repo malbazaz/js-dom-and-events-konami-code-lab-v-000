@@ -9,7 +9,7 @@ function onKeyDownHandler(e){
     if(key === code[index]){
       index++;
     } else {
-      
+      index = 0;
     }
     if(index === code.length){
       alert("Hurray!");
