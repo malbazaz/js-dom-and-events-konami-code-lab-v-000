@@ -6,7 +6,6 @@ let index = 0;
 // const input = document.querySelector('input')
 
 function onKeyDownHandler(e){
-  debugger;
     const key = parseInt(e.detail || e.which)
     console.log(key)
     if(key === code[index]){
