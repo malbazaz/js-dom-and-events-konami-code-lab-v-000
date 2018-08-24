@@ -5,9 +5,9 @@ function init() {
   // Write your JavaScript code inside the init() function
 let index = 0;
 const input = document.querySelector('input')
+debugger;
 function onKeyDownHandler(e){
     const key = parseInt(e.detail || e.which)
-    debugger;
     console.log(key)
     if(key === code[index]){
       index++;
