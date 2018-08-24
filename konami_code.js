@@ -5,7 +5,7 @@ function init() {
 let index = 0;
 // const input = document.querySelector('input')
 document.body.addEventListener('keydown', function(e){
-        const key = parseInt(e.detail || e.which)
+        const key = parseInt(e.which || e.detail)
         // debugger;
         // console.log(key)
         if(key === code[index]){
