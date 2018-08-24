@@ -18,6 +18,6 @@ function onKeyDownHandler(e){
     } else {
       index = 0;
     }
-window.addEventListener('keydown', onKeyDownHandler(e));
+input.addEventListener('keydown', onKeyDownHandler(e));
 }
 }
