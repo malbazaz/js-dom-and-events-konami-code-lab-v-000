@@ -9,14 +9,13 @@ function onKeyDownHandler(e){
     const key = parseInt(e.detail || e.which)
     if(key === code[index]){
       index++;
-    } else {
-      index = 0;
-    }
-    if(index === code.length){
-      alert("Hurray!");
-      index = 0;
-    } else {
-      index = 0;
+  
+      if(index === code.length){
+        alert("Hurray!");
+        index = 0;
+      } else {
+        index = 0;
+      }
     }
 input.addEventListener('keydown', onKeyDownHandler(e));
 }
